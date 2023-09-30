@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Z_T_Ramilevich_Project 1", "Z_T_Ramilevich_Project 1.csproj", "{DA44DC56-7961-48CA-8849-700C4BF528D4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Z_T_Ramilevich_LAB", "..\Z_T_Ramilevich_Project 2\Z_T_Ramilevich_LAB.csproj", "{C089EEAC-9248-4777-A781-EE0757E93870}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA44DC56-7961-48CA-8849-700C4BF528D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA44DC56-7961-48CA-8849-700C4BF528D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA44DC56-7961-48CA-8849-700C4BF528D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA44DC56-7961-48CA-8849-700C4BF528D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C089EEAC-9248-4777-A781-EE0757E93870}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C089EEAC-9248-4777-A781-EE0757E93870}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C089EEAC-9248-4777-A781-EE0757E93870}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C089EEAC-9248-4777-A781-EE0757E93870}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {633DB1EE-3E58-4EDB-8812-587F17607423}
+	EndGlobalSection
+EndGlobal

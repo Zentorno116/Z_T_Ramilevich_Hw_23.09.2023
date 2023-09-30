@@ -1,19 +1,27 @@
 ﻿using System;
-using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tumakov_4
+namespace Z_T_Ramilevich_Project_1
 {
-    internal class task_3
+    internal class Solution
     {
+        enum Week
+        {
+            Понедельник = 1,
+            Вторник,
+            Среда,
+            Четверг,
+            Пятница,
+            Суббота,
+            Воскресенье
+        }
+
         static void Main(string[] args)
         {
-
-
-            Console.WriteLine("Задание 3.\n");
+            Console.WriteLine("Task 3.Должности и выпивка. \n");
 
             Console.WriteLine("Введите должность.");
             string human = Console.ReadLine();
@@ -43,6 +51,24 @@ namespace Tumakov_4
             }
             Console.ReadKey();
             Console.Clear();
+
+            Console.WriteLine("Task 4. Дни недели. \n");
+
+            Console.WriteLine("Введите номер дня недели.");
+            int Day = int.Parse(Console.ReadLine());
+            if (Day > 7 | Day < 1)
+            {
+                Console.WriteLine("Ошибка");
+            }
+            else
+            {
+                Console.WriteLine($"День недели: {(Week)Day}");
+            }
+            Console.ReadKey();
+            Console.Clear();
+
+
+            
         }
     }
 }
