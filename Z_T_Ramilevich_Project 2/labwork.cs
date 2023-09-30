@@ -12,6 +12,8 @@ namespace Z_T_Ramilevich_Project_2
         {
             Console.Write("Упражнение 4.1. Дата.\n Введите число от 1 до 365: ");
             int dayOfYear = int.Parse(Console.ReadLine());
+            Console.Write("Введите номер года: ");
+            int numberofYear = int.Parse(Console.ReadLine());
 
             string month = "";
             int dayOfMonth = 0;
@@ -77,7 +79,17 @@ namespace Z_T_Ramilevich_Project_2
                 dayOfMonth = dayOfYear - 334;
             }
             else Console.WriteLine("Вне диапазона 0<day<366.");
-            
+
+            if (numberofYear > 0 && numberofYear % 4 == 0 && numberofYear % 100 != 0 || numberofYear > 0 && numberofYear % 400 == 0)
+
+                Console.WriteLine("Год високосный");
+
+            else if (numberofYear > 0)
+
+                Console.WriteLine("Год не високосный");
+
+            else Console.WriteLine("Введён неверный формат года");
+         
             Console.WriteLine($"Месяц: {month}, День: {dayOfMonth}");
         }
     }
